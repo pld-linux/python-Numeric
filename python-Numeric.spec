@@ -4,7 +4,7 @@ Summary:	Python numerical facilities
 Summary(pl):	Modu³y do obliczeñ numerycznych dla jêzyka Python
 Name:		python-%{module}
 Version:	24.2
-Release:	2
+Release:	3
 License:	distributable
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/numpy/%{module}-%{version}.tar.gz
