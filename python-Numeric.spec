@@ -1,7 +1,7 @@
 %define		module	Numeric
 
 Summary:	Python numerical facilities
-Summary(pl):	Modu³y do obliczeñ numerycznych dla jêzyka Python
+Summary(pl.UTF-8):   ModuÅ‚y do obliczeÅ„ numerycznych dla jÄ™zyka Python
 Name:		python-%{module}
 Version:	24.2
 Release:	4
@@ -23,13 +23,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 NumPy is a collection of extension modules to provide high-performance
 multidimensional numeric arrays to the Python programming language.
 
-%description -l pl
-Pakiet umo¿liwia wydajne obliczenia numeryczne na macierzach
+%description -l pl.UTF-8
+Pakiet umoÅ¼liwia wydajne obliczenia numeryczne na macierzach
 wielowymiarowych.
 
 %package devel
 Summary:	C header files for numerical modules
-Summary(pl):	Pliki nag³ówkowe jêzyka C modu³ów numerycznych
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe jÄ™zyka C moduÅ‚Ã³w numerycznych
 Group:		Development/Languages/Python
 %pyrequires_eq	python-devel
 Requires:	%{name} = %{version}-%{release}
@@ -38,12 +38,12 @@ Obsoletes:	python-numpy-devel <= 24.2
 %description devel
 C header files for numerical modules.
 
-%description devel -l pl
-Pliki nag³ówkowe jêzyka C modu³ów numerycznych.
+%description devel -l pl.UTF-8
+Pliki nagÅ‚Ã³wkowe jÄ™zyka C moduÅ‚Ã³w numerycznych.
 
 %package FFT
 Summary:	Interface to the FFTPACK FORTRAN library
-Summary(pl):	Interfejs do biblioteki FFTPACK jêzyka Fortran
+Summary(pl.UTF-8):   Interfejs do biblioteki FFTPACK jÄ™zyka Fortran
 Group:		Libraries/Python
 %pyrequires_eq	python-libs
 Requires:	%{name} = %{version}-%{release}
@@ -54,15 +54,15 @@ The FFT.py module provides a simple interface to the FFTPACK FORTRAN
 library, which is a powerful standard library for doing fast Fourier
 transforms of real and complex data sets.
 
-%description FFT -l pl
-Modu³ FFT zawiera prosty interfejs do biblioteki FFTPACK jêzyka
-Fortran. Ta biblioteka o wysokich mo¿liwo¶ciach jest standardowo
-u¿ywana do prowadzenia obliczeñ za pomoc± dyskretnej transformaty
+%description FFT -l pl.UTF-8
+ModuÅ‚ FFT zawiera prosty interfejs do biblioteki FFTPACK jÄ™zyka
+Fortran. Ta biblioteka o wysokich moÅ¼liwoÅ›ciach jest standardowo
+uÅ¼ywana do prowadzenia obliczeÅ„ za pomocÄ… dyskretnej transformaty
 Fouriera na liczba rzeczywistych i zespolonych.
 
 %package MA
 Summary:	MA - a facility for dealing with masked arrays
-Summary(pl):	Modu³ do obs³ugi macierzy niepe³nych
+Summary(pl.UTF-8):   ModuÅ‚ do obsÅ‚ugi macierzy niepeÅ‚nych
 Group:		Libraries/Python
 %pyrequires_eq	python-libs
 Requires:	%{name} = %{version}-%{release}
@@ -73,14 +73,14 @@ Masked arrays are arrays that may have missing or invalid entries.
 Module MA provides a work-alike replacement for Numeric that supports
 data arrays with masks.
 
-%description MA -l pl
-Macierze niepe³ne s± to macierze, którym mo¿e brakowaæ lub mog±
-zawieraæ niepoprawne warto¶ci. Modu³ MA zawiera odpowiednie narzêdzia
+%description MA -l pl.UTF-8
+Macierze niepeÅ‚ne sÄ… to macierze, ktÃ³rym moÅ¼e brakowaÄ‡ lub mogÄ…
+zawieraÄ‡ niepoprawne wartoÅ›ci. ModuÅ‚ MA zawiera odpowiednie narzÄ™dzia
 do operowania na tego typu macierzach.
 
 %package RNG
 Summary:	Random Number Generator Object for NumPy
-Summary(pl):	Obiekt generatora liczb losowych dla modu³u NumPy
+Summary(pl.UTF-8):   Obiekt generatora liczb losowych dla moduÅ‚u NumPy
 Group:		Libraries/Python
 %pyrequires_eq	python-libs
 Requires:	%{name} = %{version}-%{release}
@@ -89,9 +89,9 @@ Obsoletes:	python-numpy-RNG <= 24.2
 %description RNG
 RNG provides a random number object to Numerical Python.
 
-%description RNG -l pl
-Modu³ ten zawiera implementacjê obiektu generatora liczb losowych dla
-jêzyka Python.
+%description RNG -l pl.UTF-8
+ModuÅ‚ ten zawiera implementacjÄ™ obiektu generatora liczb losowych dla
+jÄ™zyka Python.
 
 %prep
 %setup -q -n %{module}-%{version}
