@@ -1,7 +1,7 @@
 %define		module	Numeric
 
 Summary:	Python numerical facilities
-Summary(pl.UTF-8):   Moduły do obliczeń numerycznych dla języka Python
+Summary(pl.UTF-8):	Moduły do obliczeń numerycznych dla języka Python
 Name:		python-%{module}
 Version:	24.2
 Release:	4
@@ -29,7 +29,7 @@ wielowymiarowych.
 
 %package devel
 Summary:	C header files for numerical modules
-Summary(pl.UTF-8):   Pliki nagłówkowe języka C modułów numerycznych
+Summary(pl.UTF-8):	Pliki nagłówkowe języka C modułów numerycznych
 Group:		Development/Languages/Python
 %pyrequires_eq	python-devel
 Requires:	%{name} = %{version}-%{release}
@@ -43,7 +43,7 @@ Pliki nagłówkowe języka C modułów numerycznych.
 
 %package FFT
 Summary:	Interface to the FFTPACK FORTRAN library
-Summary(pl.UTF-8):   Interfejs do biblioteki FFTPACK języka Fortran
+Summary(pl.UTF-8):	Interfejs do biblioteki FFTPACK języka Fortran
 Group:		Libraries/Python
 %pyrequires_eq	python-libs
 Requires:	%{name} = %{version}-%{release}
@@ -62,7 +62,7 @@ Fouriera na liczba rzeczywistych i zespolonych.
 
 %package MA
 Summary:	MA - a facility for dealing with masked arrays
-Summary(pl.UTF-8):   Moduł do obsługi macierzy niepełnych
+Summary(pl.UTF-8):	Moduł do obsługi macierzy niepełnych
 Group:		Libraries/Python
 %pyrequires_eq	python-libs
 Requires:	%{name} = %{version}-%{release}
@@ -80,7 +80,7 @@ do operowania na tego typu macierzach.
 
 %package RNG
 Summary:	Random Number Generator Object for NumPy
-Summary(pl.UTF-8):   Obiekt generatora liczb losowych dla modułu NumPy
+Summary(pl.UTF-8):	Obiekt generatora liczb losowych dla modułu NumPy
 Group:		Libraries/Python
 %pyrequires_eq	python-libs
 Requires:	%{name} = %{version}-%{release}
