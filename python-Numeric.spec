@@ -11,6 +11,8 @@ Source0:	http://dl.sourceforge.net/numpy/%{module}-%{version}.tar.gz
 # Source0-md5:	2ae672656e06716a149acb048cca3093
 URL:		http://sourceforge.net/projects/numpy/
 BuildRequires:	python-devel >= 1:2.3
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python-libs
 Obsoletes:	python-numpy <= 0:24.2
 # dropped some time ago
