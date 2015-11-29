@@ -9,6 +9,7 @@ Group:		Libraries/Python
 Source0:	http://downloads.sourceforge.net/numpy/%{module}-%{version}.tar.gz
 # Source0-md5:	2ae672656e06716a149acb048cca3093
 URL:		http://sourceforge.net/projects/numpy/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-devel >= 1:2.3
 BuildRequires:	python-modules
 BuildRequires:	rpm-pythonprov
